@@ -1,0 +1,699 @@
+*
+{
+    font-family: 'Poppins', sans-serif;
+    transition:all .2s linear;
+    padding:0px;
+    margin:0px;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width:1rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--black);
+}
+
+section{
+    padding:5rem 9%;
+}
+
+.home{
+    background: url(image/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: "";
+}
+
+.home .row{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin-top:"";
+  
+}
+
+.home .row .content{
+    flex:1 1 42rem;
+}
+
+.home .row .books-slider{
+    flex:1 1 42rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.home .row .books-slider a img{
+    height: 25rem;
+}
+
+.home .row .books-slider a:hover img{
+    transform: scale(.9);
+}
+
+.home .row .books-slider .stand{
+    width:100%;
+    margin-top: -2rem;
+}
+
+.home .row .content h3{
+    color:var(--black);
+    font-size: 4.5rem;
+}
+
+.home .row .content p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+    padding:1rem 0;
+}
+
+#kapoor
+{
+    margin-right: 8.6px;
+}
+
+.kappor
+{
+    margin-right: 10px;
+}
+
+.singh
+{
+    margin-right: 8px;
+}
+
+.d-flex-yb
+{
+    margin-top:6px;
+    margin-left:48px;
+   
+}
+
+#textsize
+{
+    font-size: 150%;
+    font-weight: "";
+
+}
+
+.nav-link
+{
+   
+   font-weight: bold;
+}
+
+.nav-item
+{
+    font-size: 150%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: "";
+}
+
+#emailHelp
+{
+    font-size: 150%;
+}
+
+#exampleCheck1
+{
+    font-size: 130%;
+
+}
+
+#raj
+{
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#btnread
+{
+    width: 40%;
+    font-size: 150%;
+    height: 4rem;
+}
+
+#btnread:hover
+{
+    background: white;
+    color: green;
+    border: 2px solid white;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#RAJ
+{
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nv
+{
+    margin-bottom: 50px;
+    width: fit-content;
+}
+
+.card
+{
+    height: 8%;
+    width: 65.9%;
+    margin-left: 14.6%;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+
+
+.organ
+{
+    margin-top: 20px;
+}
+
+
+
+.containerrr
+{
+    
+    background: url(image/banner-bg.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.containerrr .row .col .card img
+{
+    height: 290px;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+    height: 50%;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.2rem;
+    color:var(--black);
+    padding:1rem 0;
+}
+
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.footer .box-container .box a i{
+    color:var(--green);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box .map{
+    width:100%;
+}
+
+.footer .share{
+    padding:1rem 0;
+    text-align: center;
+}
+
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color:#fff;
+    background:var(--green);
+    margin:0 .3rem;
+    border-radius: 50%; 
+}
+
+.footer .credit{
+    border-top: var(--border);
+    margin-top: 2rem;
+    padding:0 1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:var(--light-color);
+    text-align: center;
+}
+
+.footer .credit span{
+    color:var(--green);
+}
+
+.fottter
+{
+    background: url(image/banner-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.fab .fa-arrow-right
+{
+    background-color:black;
+}
+
+.share
+{
+    color: green;
+}
+
+#myBtn 
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:green;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+#myBtn:hover 
+  {
+    background-color: white;
+    color:green;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border:2px solid green;
+    
+  }
+
+.scrollbig:hover
+  {
+    transition:all .2s linear;
+    border:2px solid yellow;      
+  }
+
+.scrollbigg:hover
+  {
+    transition: smooth;
+     border: 2px solid white;     
+  }
+
+  .scrollbiggg:hover
+{
+    transition: smooth;
+    border: 2.6px solid yellow;
+}
+
+.amiba:hover
+{
+  border-bottom:.3px solid yellow;
+  border-right: .3px solid yellow;
+  border-bottom-right-radius:20px;
+}
+
+.changefont
+{
+    font-weight: 20px;
+    margin-left: 5px;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+/**Home Page Ends Here**/
+
+/** Disclaimer page**/
+
+body
+{
+    background: url(image/banner-bg.jpg) repeat;
+    
+
+}
+
+.boxD
+{
+    margin-top: 2rem;
+    font-size: 35px;
+    text-align: center;
+    color: green;
+    font-weight: bolder;
+    text-decoration: underline green dotted;
+    font-family:'Courier New', Courier, monospace ;
+}
+
+.texttext
+{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: green;
+    font-family:'Courier New', Courier, monospace ;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+/** Disclaimer page ends here**/
+
+/** Contact Page Stars Here**/
+
+.contact-form{
+    background:whitesmoke;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 70%;
+  color: green;
+}
+.contact-form .form-control{
+    border-radius:1rem;
+    font-size: 15px;
+}
+.contact-image{
+    text-align: center;
+    
+}
+.contact-image img{
+    border-radius: 6rem;
+    width: 11%;
+    margin-top: -3%;
+    transform: rotate(1deg);
+    background: white;
+    transition: all 0.7s ;
+   
+}
+
+.contact-image img:hover
+{
+border: .2px solid green;
+}
+.contact-form form{
+    padding: 14%;
+}
+.contact-form form .row{
+    margin-bottom: -7%;
+}
+.contact-form h3{
+    margin-bottom: 8%;
+    margin-top: -10%;
+    text-align: center;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contact-form .btnContact {
+    width: fit-content;
+    border: none;
+    border-radius: 1rem;
+    padding: 1.5%;
+    background: green;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12.5px;
+    
+    
+    
+}
+
+.contact-form .btnContact:hover
+{
+    background-color: whitesmoke;
+    color:green;
+    border: .2px solid green;
+}
+/** Contact Page Ends Here**/
+
+/** About Page Starts **/
+
+.box1  
+{
+  width: fit-content;
+  margin-left:11% ;
+  height: fit-content;
+  background:whitesmoke;
+  box-shadow: 0 0 5px black;
+  overflow: hidden;
+  position: relative;
+  margin: auto;
+  border-top: 35px;
+  align-items: center; 
+}
+
+box1 img
+{
+    width: 60%;
+    height: auto;
+    display: block;
+}
+
+.box1 .box2
+{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+    margin: auto;
+}
+
+.box1 .box2:before,
+.box1 .box2:after
+{
+    content: '';
+    width: 97%;
+    height: 47%;
+    background: whitesmoke;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: all 0.4s;
+    opacity: 0;
+
+}
+
+.box1 .box2:before
+{
+    top: -20%;
+}
+
+.box1 .box2:after
+{
+    bottom: -20%;
+}
+
+
+
+.box1:hover .box2:before
+{
+    top: 3%;
+    opacity: 0.8;
+
+}
+
+.box1:hover .box2:after
+{
+    bottom: 3%;
+    opacity: 0.8;
+
+}
+
+.box1 .box3
+{
+    width: 100%;
+    height: 45px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-top: 5.7rem;
+    z-index: 1;
+    text-align: center;
+    transform: rotate(0deg);
+    opacity: 0;
+    transition:all 0.5s;
+}
+
+.box1:hover .box3
+{
+    opacity: 1;
+    transform: rotate(0deg);
+}
+
+
+
+
+.box1 .box4
+{
+    padding: 0;
+    margin: 0 0 20px 0;
+    list-style: none;
+
+}
+
+.box1 .box4 li
+{
+  display: inline-block;
+  margin-right: 10px;
+  margin-top: 50px;
+
+}
+
+.box1 .box4 li a
+{
+    color: #000;
+    background: #fff;
+    color: green;
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    font-size: 18px;
+    transition: all 0.2s;
+
+}
+
+.box1 .title
+{
+    color: green;
+    font-size: 22px;
+    margin-bottom: 7px;
+    font-weight: bold;
+}
+
+
+
+.box1 .post
+{
+    color:green;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.box1 .box3 li a:hover
+{
+    border: 0.8px solid green;
+    background:green;
+    color: white
+    ;
+}
+
+#box-a 
+{
+    width: 80%;
+    height: 60%;
+    background: url(image/bg-banner.jpg);
+    margin-left: 11%;
+    margin-top: 4%;
+}
+
+
+.heading2
+{
+    text-align: center;
+    color: green;
+    font-weight:  bold;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 1.9rem;
+    border-bottom: 1px solid black;
+}
+
+.text-span
+{
+    font-weight:bold;
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    margin-top: 2rem;
+    
+}
+
+.heading1
+{
+    text-align: center;
+    
+}
+
+#marginmargin
+{
+    margin-bottom: 35px;
+}
+
+/** About Ends **/
+
+/** Arka jain starts **/
+
+#sorry
+{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#sorry:hover
+{
+    border: 1px solid whitesmoke;
+}
+
+.headcolor
+{
+    color: green;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card
+{
+    cursor: pointer;
+}
+
+#more
+{
+    font-size: 15px;
+    transition: all 0.5s;
+}
+
+
+
+#ftt:hover
+{
+background:whitesmoke;
+font-weight: bolder;
+}
+
+/** Arka jain home page ends**/
+
+/** Engineering And it page **/
+
+/** CSE Page **/
+
+#keepinline
+{
+    display: inline-block;
+    position: relative;
+
+}
+.card
+{
+    
+}
